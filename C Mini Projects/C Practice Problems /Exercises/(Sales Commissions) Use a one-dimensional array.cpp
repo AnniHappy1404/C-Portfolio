@@ -1,18 +1,26 @@
 /*6.10 (Sales Commissions) Use a one-dimensional array to solve the following problem. A company pays its salespeople on a commission basis. The salespeople receive $200 per week plus 9% of
 their gross sales for that week. For example, a salesperson who grosses $3,000 in sales in a week receives $200 plus 9% of $3,000, or a total of $470. Write a C program (using an array of counters)
 that determines how many of the salespeople earned salaries in each of the following ranges (assume
-that each salesperson’s salary is truncated to an integer amount):
-a) $200–299
-b) $300–399
-c) $400–499
-d) $500–599
-e) $600–699
-f) $700–799
-g) $800–899
-h) $900–999
+that each salespersonâ€™s salary is truncated to an integer amount):
+a) $200â€“299
+b) $300â€“399
+c) $400â€“499
+d) $500â€“599
+e) $600â€“699
+f) $700â€“799
+g) $800â€“899
+h) $900â€“999
 i) $1000 and over*/
 
-//PHAM NGUYEN HOANG TUAN
+/*
+ * _______________________________________________________
+ * |                                                       |
+ * |             CREATED BY PHAM NGUYEN HOANG TUAN         |
+ * |_______________________________________________________|
+ *
+ * Language : C
+ * Solution for C How to Program - Exercise 6.10
+ */
 
 #include<stdio.h>
 
@@ -53,3 +61,4 @@ int salary(float s){
 	int sum = (int)(200 + (0.09 * s));
 	return sum;
 	}
+
