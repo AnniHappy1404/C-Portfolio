@@ -1,3 +1,7 @@
+/*(Calculating the Sum of Even Integers) Write a program that calculates and prints the sum
+of the even integers from 2 to 30.8*/
+//PHAM NGUYEN HOANG TUAN
+
 #include<stdio.h>
 
 int main(){
@@ -18,3 +22,4 @@ int main(){
 	}
 	return 0;
 }
+
